@@ -1,0 +1,105 @@
+/* todo app css */
+body{
+  background-color: rgb(4, 112, 36);
+  padding: 0%;
+  margin: 0%;
+}
+
+.header{
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.date-time{
+  border: 1px solid silver;
+  border-radius: 10px;
+  width: 40%;
+  height: 5.5em;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 1.9em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.todo-status{
+  border: 1px solid rgb(171, 178, 186);
+  border-radius: 10px;
+  width: 40%;
+}
+.todo-container{
+  width:83%;
+  margin: auto;
+  margin-top: 1em;
+  overflow: hidden;
+}
+.search-bar{
+  display: flex;
+  gap: 0.6em;
+  align-items: center;
+  margin: auto;
+}
+
+.search-bar input{
+  width: 75%;
+  padding: 0.4em;
+  font-size: 1.3em;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.search-bar button{
+  width: 20%;
+  padding: 0.4em;
+  font-size: 1.3em;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(76, 220, 85);
+  color: white;
+}
+
+.todos{
+  display: flex;
+  align-items: center;
+  gap: 0.3em;
+  margin-top: 1em;
+  font: 1em;
+  border: 1px solid silver;
+  border-radius: 10px;
+  padding: 0.5em;
+  justify-content: space-between;
+  color: white;
+}
+
+.todos .check-btn{
+  width: 2em;
+  height: 2em;
+  border: none;
+}
+
+.todos .text{
+  font-size: 1em;
+  color: white;
+}
+
+
+.saveBtn, .editBtn, .deleteBtn{
+  padding: 0.4em;
+  border: none;
+  border-radius: 5px;
+  background-color: #008000;
+  color: white;
+}
+.deleteBtn{
+  background-color: red;
+}
+.btns{
+  display: flex;
+  gap: 0.2em;
+}
